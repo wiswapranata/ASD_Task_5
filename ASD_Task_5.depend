@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1518490873 source:c:\users\andityaarifianto\documents\github\asd_task_5\list.cpp
+	"list.h"
+
+1518490873 c:\users\andityaarifianto\documents\github\asd_task_5\list.h
+	<string>
+	<windows.h>
+	<iostream>
+
