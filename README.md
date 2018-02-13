@@ -44,7 +44,16 @@ to implement Double Circular Linked List mechanism
 * function to play current music pointed by P<br> `void playMusic(address P);`   <br>
 </i>
 TODO : 
-create function according to the header defined in player.h<br>
+create function according to the header defined in player.h
+
+* function to sort the music list by ID <br>
+  ``` void sortListByID(List &L); ``` <br>
+  
+* function to play the music list from the first music and repeat the list n times  <br>`void playRepeat(List &, int n);` <br>
+  
+* function to delete any music defined by its ID<br>
+  ```void deleteMusicByID(List &L, infotype x);```
+
 * function to shuffle the music list<br> `void shuffleList(List &);`<br>simple logic example: <br> 
 
 ```	loop n times
@@ -56,14 +65,6 @@ create function according to the header defined in player.h<br>
 		insert first P
   ```
   
-* function to sort the music list by ID <br>
-  ``` void sortListByID(List &L); ``` <br>
-  
-* function to play the music list from the first music and repeat the list n times  <br>`void playRepeat(List &, int n);` <br>
-  
-* function to delete any music defined by its ID<br>
-  ```void deleteMusicByID(List &L, infotype x);```
-	
 		
 ##main.cpp
 * modify the main menu progam
