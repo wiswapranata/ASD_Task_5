@@ -1,7 +1,7 @@
 # Task_5 [2017/2018-II]
 Task 5 : Circular Double Linked List
 
-# DEADLINE = FEBRUARY 21TH, 2018 - 23:59
+# DEADLINE = FEBRUARY 24TH, 2018 - 23:59
 
 ## Reading Material
 * [git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
