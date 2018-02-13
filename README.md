@@ -39,20 +39,15 @@ to implement Double Circular Linked List mechanism
 	
 ##player.cpp
 <i>these function are already defined:
-* function to produce random integer
-  ```int randomInt(int  max_int);``` <br>
-* function to print music list inserted
-  ```void printInfo(List L);``` <br>
-* function to play current music pointed by P
-  ```void playMusic(address P);```   <br>
+* function to produce random integer<br> `int randomInt(int  max_int);` <br>
+* function to print music list inserted<br> `void printInfo(List L);` <br>
+* function to play current music pointed by P<br> `void playMusic(address P);`   <br>
 </i>
 TODO : 
 create function according to the header defined in player.h<br>
-* function to shuffle the music list <br>
-  ``` void shuffleList(List &);```<br>
-  simple logic example: <br>
-  ```
-	loop n times
+* function to shuffle the music list<br> `void shuffleList(List &);`<br>simple logic example: <br> 
+
+```	loop n times
 		P <- first
 		x = randomInt
 		for i to x, 
@@ -60,11 +55,11 @@ create function according to the header defined in player.h<br>
 		delete after P
 		insert first P
   ```
+  
 * function to sort the music list by ID <br>
   ``` void sortListByID(List &L); ``` <br>
   
-* function to play the music list from the first music and repeat the list n times  <br>
-  ```void playRepeat(List &, int n);``` <br>
+* function to play the music list from the first music and repeat the list n times  <br>`void playRepeat(List &, int n);` <br>
   
 * function to delete any music defined by its ID<br>
   ```void deleteMusicByID(List &L, infotype x);```
